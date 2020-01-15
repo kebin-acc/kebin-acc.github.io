@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>KE Bin | Research</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+    <link href="dist/css/bootstrap-switch.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">   
+  </head>
+
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">                
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button> 
+              <a class="logo pull-left" href="index.html"></a>
+              <span class="name pull-left"><strong>KE Bin </strong><br>Professor at National University of Singapore</span>           
+              <a class="navbar-brand" href="index.html">KE Bin | Research </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="profile.html">Profile</a>
+                  </li>
+                  <li class="active">
+                      <a href="research.html">Research</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
+    <!-- end of Fixed navbar -->
+
+    <!--Profile Header-->
+    <article id="profile-header">
+        <div class="container">                
+              <div class="row">
+                  <!-- Profile Image -->
+                  <div class="col-sm-3 col-md-3 col-lg-3" style="margin-right:2em; height: auto;">
+                      <span class="image" style="float: left; width: 100%; height: auto; padding-bottom:10px;">
+                          <img src="images/kebin1.jpg" alt="" style="width: 100%;"/>
+                      </span>
+                  </div>
+                  <!-- end of Profile Image -->
+                  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="text-align: center;">
+                      <h1><strong>KE Bin 柯 滨</strong></h1>
+                      <hr class="hr-md" style="border-color:transparent;">
+                      <h4 ><strong>Professor | Provost’s Chair</strong></h4>
+                      <h4 id="dptmt1">Accounting Department, Business School</h4>
+                      <h4 id="dptmt2">Accounting, Business School</h4>
+                      <h4> National University of Singapore</h4>  
+                      <h2></h2> 
+                      <hr>
+                      <p> 
+                          <i class="fas fa-phone" title="Phone"></i>&nbsp;(65) 6601 3133
+                          <i class="fas fa-envelope" title="Email"></i>&nbsp;bizk@nus.edu.sg 
+                          <i class="fas fa-link" title="NUS Website"></i>&nbsp;<a href="https://bizfaculty.nus.edu.sg/faculty-details/?profId=451">NUS Website</a>
+                          <i class="fas fa-id-card" title="PDF CV"></i>&nbsp;<a href="assets/cv.pdf" >Curriculum Vitae</a>
+                      </p>                   
+                  </div>
+              </div>
+              <hr>
+        </div> 
+    </article>
+    <!--end of Profile Header-->
+    
+    <!-- Research Content-->
+    <article id="article_researchs">
+        <div class="container">
+            <!-- second nav tab to switch view -->
+            <ul id="myTab" class="nav nav-tabs">
+                <!-- link to Research Main Content Publications -->
+                <li class="active"> 
+                  <a href="#publications" data-toggle="tab">Publications</a>
+                </li>
+                <!-- end of link -->
+                <!-- link to Research Main Content Working Paper -->
+                <li>
+                  <a href="#workingpaper" data-toggle="tab">Working Paper</a>
+                </li>
+                <!-- end of link -->
+                <!-- link to Research Main Content Data -->
+                <li>
+                  <a href="#data" data-toggle="tab">Shared Data</a>
+                </li>
+                <!-- end of link -->
+                <!-- link to Research Main Content Google Citations -->
+                <li class="gcitation">
+                  <a href="#Citations" data-toggle="tab">Google Citations</a>
+                </li>
+                <!-- end of link -->
+                <!-- link to Research Main Content WordCloud -->
+                <li class="wordcloud">
+                  <a href="#WordCloud" data-toggle="tab">WordCloud</a>
+                </li>
+                <!-- end of link -->
+            </ul>
+            <!-- end of second nav tab to switch view -->
+
+            <!-- Research Main Content-->
+            <div id="myTabContent" class="tab-content">
+                <!-- Publications -->
+                <div class="tab-pane fade in active" id="publications">
+                        <section class="box">
+                              <!-- Awesome Font -->
+                              <span class="fas fa-book fa-6x"></span>
+                              <!-- end of Awesome Font -->
+                              <h3>Publications</h3> 
+                              <p style="margin-top:2em">You may find my published research papers at one of the following websites: 
+                              <em><strong><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=138839">SSRN</a></em></strong> or 
+                              <em><strong><a href="https://scholar.google.com/citations?user=C7bSu80AAAAJ">Google Scholar</a></em></strong> or 
+                              <em><strong><a href="https://www.researchgate.net/profile/Bin_Ke2">ResearchGate</a></em></strong>
+                              </p>
+                              <ul id= "pubs" style="text-align: left; margin-top:3em;">
+                                    <li>
+                                      <p><em>"The consequences of shifting the IPO offer pricing power from securities regulators to market participants in weak institutional environments: Evidence from China"</em></p> 
+                                      <p>Ke, Bin and Jun Chen, Donghui Wu, Zhifeng Yang, <em><strong>Journal of Corporate Finance (2018), 50, 349-370, (forthcoming)</strong></em></p>
+                                    </li>
+                                    <li>
+                                        <p><em>"Measuring the Information Content of Financial News"</em></p>
+                                        <p>Ke, Bin and Ching-Yun Chang, Yue Zhang, Zhiyang Teng, Zahn Bozanic &nbsp;</p>
+                                        <P><em><strong>COLING 2016, the 26th International Conference on Computational Linguistics, organized by the Association for Natural Language Processing (ANLP) (2018)</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Can Transient Institutions Correctly Interpret Small Negative Earnings Surprises in the Absence of Access to Management’s Private Information"</em></p>
+                                      <p>Ke, Bin and Gang Hu, Yong Yu, <em><strong>Journal of Accounting, Auditing and Finance (2017) , 1-31, (forthcoming)</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"The Substantial Convergence of Chinese Accounting Standards with IFRS and the Managerial Pay-for-Accounting Performance Sensitivity of publicly listed Chinese firms"</em></p>
+                                      <p>Ke, Bin, li y and yuan h, &nbsp;<em><strong>Journal of Accounting & Public Policy (2016), 1-42</strong></em></P>
+                                    </li>
+                                    <li>
+                                      <p><em>"The Substantial Convergence of Chinese Accounting Standards with IFRS and the Managerial Pay-for-Accounting Performance Sensitivity of publicly listed Chinese firms"</em></p>
+                                      <p> Ke, Bin and Yubo Li, Hongqi Yuan, &nbsp;<em><strong>Journal of Accounting and Public Policy (2016), 35, 567–591</strong></em></p>
+                                    </li>
+                                    <li>
+                                        <p><em>"Modeling Contagious Acquisition via Point Processes with a Profile Regression Prior"</em></p>
+                                        <p>Ke, Bin and Junchi Yan, Shuai Xiao, Changsheng Li, Bo Jin, Xiangfeng Wang, Xiaokang Yang and Hongyuan Zha &nbsp;</p>
+                                        <p><em><strong>25th International Joint Conference on Artificial Intelligence (2016)</strong></em></p>
+                                    </li>
+                                    <li>
+                                        <p><em>"Detecting Accounting Frauds in Publicly Traded US Firms: A Machine Learning Approach"</em></p>
+                                        <p>Ke, Bin and B Li, J Yu, J Zhang &nbsp;</p>
+                                        <p><em><strong>Proceedings of the Asian Conference on Machine Learning (2016)</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"The effect of weak institutional environments on the quality of Big Four audits"</em></p>
+                                      <p>Ke, Bin, lennox c and xin q, &nbsp;<em><strong>Accounting Review (2015), 90, 4</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"The effect of weak institutional environments on the quality of Big Four audits"</em></p>
+                                      <p>Ke, Bin and Clive Lennox, Qingquan Xin, &nbsp;<em><strong>Accounting Review (2015), 90(4), 1591–1619</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"A Personal Perspective on Protecting Investors of Publicly Listed Chinese Firms"</em></p>
+                                      <p>Ke, Bin, &nbsp;<em><strong>China Journal of Accounting Studies (2014), 2 (4) </strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Are stock option grants to directors of state-controlled Chinese firms listed in Hong Kong genuine compensation?"</em></p>
+                                      <P>Ke, Bin and Zhihong Chen, Yuyan Guan, &nbsp;<em><strong>Accounting Review (2013), 88 (5), 1547-1574 </strong></em></P>
+                                    </li>
+                                    <li>
+                                      <p><em>"Minority shareholders’ control rights and the quality of corporate decisions: A natural experiment from China"</em></p> 
+                                      <p>Ke, Bin and Zhihong Chen, Zhifeng Yang, &nbsp;<em><strong>Accounting Review (2013), 88(4), 1211-1238</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Home country investor protection, ownership structure and cross-listed firms’ compliance with SOX-mandated internal control deficiency disclosures."</em></p>                                              
+                                      <p>Ke, Bin and Guojin Gong and Yong Yu, &nbsp;<em><strong>Contemporary Accounting Research (2013), 30(4), 1490–1523</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Hong Kong stock listing and the sensitivity of managerial compensation to firm performance in state-controlled Chinese firms"</em></p>
+                                      <P>Ke, Bin and Oliver Rui, Wei Yu, &nbsp;<em><strong>Review of Accounting Studies (2012), 17(1), 166–188</strong></em></P>
+                                    </li>
+                                    <li>
+                                      <p><em>"The effect of Regulation FD on transient institutional investors’ trading behavior"</em></p>
+                                      <p>Ke, Bin and Kathy Petroni, Yong Yu, &nbsp;<em><strong>Journal of Accounting Research (2008), 46 (4), 853-883</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Information asymmetry and cross-sectional determinants of insider trading"</em></p>
+                                      <p>Ke, Bin and Steven Huddart, &nbsp;<em><strong>Contemporary Accounting Research (2007), 24 (1), 195-232</strong></em></p> 
+                                    </li>
+                                    <li>
+                                      <p><em>"Jeopardy, Non-Public Information, and Insider Trading Around SEC 10-K and 10-Q Filings"</em></p> 
+                                      <p>Ke, Bin and Steven Huddart, Charles Shi, &nbsp;<em><strong>Journal of Accounting and Economics (2007), 43, 3-36</strong></em></p>  
+                                    </li>
+                                    <li>
+                                      <p><em>"The effect of issuing biased earnings forecasts on analysts’ access to management and survival"</em></p>
+                                      <p>Ke, Bin and Yong Yu, &nbsp;<em><strong>Journal of Accounting Research (2006), 44(5), 965-999 </strong></em></p>
+                                    </li>
+                                    <li>
+                                      <P><em>"Non-audit fee disclosures and the market valuation of earnings surprises"</em></P> 
+                                      <P>Ke, Bin and Jere Francis, &nbsp;<em><strong>Review of Accounting Studies (2006), 11(4), 495-523</strong></em></P> 
+                                    </li>
+                                    <li>
+                                      <P><em>"Do Institutional investors exploit the post-earnings announcement drift"</em></P>
+                                      <p>Ke, Bin and Santhosh Ramalingegowda, &nbsp;<em><strong>Journal of Accounting and Economics (2005), 39 (1), 25-53</strong></em></p>  
+                                    </li>
+                                    <li> 
+                                      <P><em>"Discussion of “How Banks’ Value-at-Risk Disclosures Predict their Total and Priced Risk: Effects of Bank Technical Sophistication and Learning over Time"</em></P> 
+                                      <P>Ke, Bin, &nbsp;<em><strong>Review of Accounting Studies (2004), 9(2-3), 295-299</strong></em></P> 
+                                    </li>
+                                    <li>
+                                      <P><em>"How informed are actively trading institutional investors? Evidence from their trading behavior before a break in a string of consecutive earnings increases"</em></P>   
+                                      <P>Ke, Bin and Kathy Petroni, &nbsp;<em><strong>Journal of Accounting Research (2004), 42(5), 895-92</strong></em></P>
+                                    </li>
+                                    <li>
+                                      <P><em>"The Impact of the 1986 Tax Reform Act on Income Shifting from Corporate to Shareholder Tax Bases: Evidence from the Motor Carrier Industry"</em></P>
+                                      <P>Ke, Bin and Steven Huddart, Kathy Petroni, &nbsp;<em><strong>Journal of Accounting Research (2003), 35 (3), 65-88</strong></em></P> 
+                                    </li>
+                                    <li>
+                                      <P><em>"Differential Earnings Management to Avoid Earnings Declines across Publicly and Privately-held Banks"</em></P>  
+                                      <P>Ke, Bin and Anne Beatty, Kathy Petroni, &nbsp;<em><strong>Accounting Review (2002), 77 (3), 547-570</strong></em></P>  
+                                    </li>
+                                    <li> 
+                                      <P><em>"Taxes as a Determinant of Managerial Compensation in Privately Held Insurance Companies"</em></P>
+                                      <P>Ke, Bin, &nbsp;<em><strong>Accounting Review (2001), 76 (4), 655-674</strong></em></P>
+                                    </li>
+                                    <li>
+                                      <P><em>"The Impact of State Taxes on Self-Insurance"</em></P>
+                                      <P>Ke, Bin and Kathy Petroni, Doug Shackelford, &nbsp;<em><strong>Journal of Accounting and Economics (2000), 30 (1), 99-122</strong></em></P> 
+                                    </li>
+                                    <li>
+                                      <P><em>"Ownership Concentration and Sensitivity of Executive Pay to Accounting Performance Measures: Evidence from Publicly and Privately-Held Insurance Companies"</em></P>   
+                                      <P>Ke, Bin and Kathy Petroni, Assem Safieddine, &nbsp;<em><strong>Journal of Accounting and Economics (1999), 28 (2), 185-209</strong></em></P> 
+                                    </li>
+                                    <li>
+                                      <P><em>"Taxes as a Determinant of Foreign-Owned Property-Liability Insurers’ Investment Strategies in the United States"</em></P> 
+                                      <P>Ke, Bin and Edmund Outslay and Kathy Petroni, &nbsp;<em><strong>Journal of the American Taxation Association (1998), 20 (supplement), 25-36</strong></em></P> 
+                                    </li>
+                              </ul>
+                        </section>     
+                </div>
+                <!-- end of Publications -->
+                
+                <!-- Working Paper -->
+                <div class="tab-pane fade" id="workingpaper">
+                        <section class="box">
+                              <!-- Awesome Font -->
+                              <span class="fas fa-book-open fa-6x"></span>
+                              <!-- end of Awesome Font -->
+                              <h3>Working Paper</h3>
+                              <p style="margin-top:2em">You may find my ongoing research papers at one of the following websites: 
+                                  <em><strong><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=138839">SSRN</a></em></strong> or 
+                                  <em><strong><a href="https://scholar.google.com/citations?user=C7bSu80AAAAJ">Google Scholar</a></em></strong> or 
+                                  <em><strong><a href="https://www.researchgate.net/profile/Bin_Ke2">ResearchGate</a></em></strong>
+                              </p>
+                              <ul style="text-align: left; margin-top:3em;">
+                                    <li>
+                                      <p><em>"The consequences of shifting the IPO offer pricing power from securities regulators to market participants in weak institutional environments: Evidence from China"</em></p> 
+                                      <p>Ke, Bin and Jun Chen, Donghui Wu, Zhifeng Yang</p>
+                                      <p><em><strong>Journal of Corporate Finance (2018), 50, 349-370, (forthcoming)</strong></em></p>
+                                    </li>
+                                    <li>
+                                      <p><em>"Can Transient Institutions Correctly Interpret Small Negative Earnings Surprises in the Absence of Access to Management’s Private Information"</em></p>
+                                      <p>Ke, Bin and Gang Hu, Yong Yu</p>
+                                      <p><em><strong>Journal of Accounting, Auditing and Finance (2017) , 1-31, (forthcoming)</strong></em></p>
+                                      <!--  <a href="#"><i class="fab fa-stripe-s"></i></a>
+                                      <a href="#"><i class="fab fa-google"></i></a>
+                                      <a href="#"><i class="fab fa-researchgate"></i></a>  -->
+                                    </li>
+                              </ul>
+                        </section>
+                </div> 
+                <!-- end of Working Paper -->
+                
+                <!-- Shared Data -->
+                <div class="tab-pane fade" id="data">
+                        <section class="box">                                                
+                              <!-- Awesome Font -->
+                              <span class="fas fa-database fa-6x"></span>
+                              <!-- end of Awesome Font -->
+                              <h3>Shared Data</h3>
+                              
+                              <p style="margin-top:2em">The datasets of below papers are freely available. We only request that if you use the data, you reference our paper and acknowledge the data source.</p>
+                              <ul style="text-align: left; margin-top:3em;">
+                                    <li>
+                                      <p><em>"Minority shareholders’ control rights and the quality of corporate decisions: A natural experiment from China"</em></p> 
+                                      <p>Ke, Bin and Zhihong Chen, Zhifeng Yang &nbsp;</p>
+                                      <p><em><strong>Accounting Review (2013), 88(4), 1211-1238</strong></em></p>
+                                      <a href="#"><i class="fas fa-download fa-2x"></i></a>
+                                    </li>
+                                    <li>
+                                      <p><em>"Are stock option grants to directors of state-controlled Chinese firms listed in Hong Kong genuine compensation?"</em></p>
+                                      <P>Ke, Bin and Zhihong Chen, Yuyan Guan &nbsp;</P>
+                                      <p><em><strong>Accounting Review (2013), 88 (5), 1547-1574 </strong></em></P>
+                                      <a href="#"><i class="fas fa-download fa-2x"></i></a>
+                                    </li>
+                              </ul>
+                        </section> 
+                </div>
+                <!-- end of Shared Data -->
+
+                <!-- Google Citations -->
+                <div class="tab-pane fade" id="Citations">
+                        <section class="box">                                                
+                              <!-- Awesome Font -->
+                              <span class="fas fa-flag fa-6x" ></span>
+                              <!-- end of Awesome Font -->                                                
+                              <h3>Google Citations</h3>
+                              <!-- Echarts -->
+                              <div id="citation"></div><!--The jQuery code is in custom.js-->
+                              <!-- end of Echarts -->
+                              <ul style="text-align: left;">
+                                  <li>Please note that the latest updated is in Oct 2019.</li>
+                              </ul>                              
+                        </section>
+                </div>
+                <!-- end of Google Citations -->
+
+                <!-- Word Cloud -->
+                <div class="tab-pane fade" id="WordCloud">
+                        <section class="box">                                                  
+                                <!-- Awesome Font -->
+                                <span class="fas fa-cloud fa-6x"></span>
+                                <!-- end of Awesome Font -->
+                                <h3>WordCloud</h3>
+                                <ul style="text-align: left; margin-top:3em; height: auto;">
+                                    <li>The below wordcloud image is created in accordance with the researches finished by 2009 or after 2009.</li>
+                                </ul>
+                                
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <button id="bbe2009" type="button" class="btn btn-default btn-success">Before 2009</button>
+                                    <button id="baf2009" type="button" class="btn btn-default">After 2009</button>
+                                </div>
+                                <!-- Bootstrap Toggle Button -->
+                                <!--<input name="timeline" type="checkbox" checked>--><!--The jQuery code is in custom.js--> 
+                                <!-- end of Bootstrap Toggle Button -->
+                                <ul style="text-align: left; margin-top:3em; height: auto;"></ul>                                                  
+                                <!-- USA Map -->
+                                <span id='by2009' class="image" style="float: center; width: 100%; height: auto;">
+                                    <img src="images/result_usa.jpg" alt="" style="width: 98%;"/>
+                                </span> 
+                                <!-- end of USA Map -->
+                                <!-- China Map -->
+                                <span  id='af2009' class="image" style="float: center; width: 100%; height: auto;">
+                                    <img src="images/result_cn.jpg" alt="" style="width: 98%;"/>
+                                </span>
+                                <!-- end of China Map -->
+                        </section> 
+                </div>
+                <!-- end of Word Cloud -->
+            </div>
+            <!-- end of Research Main Content-->
+        </div>
+    </article>
+    <!-- end of Research Content-->   
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4  fixed-bottom">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">  
+        <!-- Grid row -->
+        <div class="row">
+          <hr class="clearfix w-100 d-md-none pb-3">
+          
+          <!-- Grid column -->
+          <!--<div class="col-sm-6 col-md-6 col-lg-6 mt-md-0 mt-3">  -->
+            <!-- Content -->
+            <!--<h2>柯滨 KE Bin</h2>
+            <h4 >Professor | Provost’s Chair</h4>
+            <h4>Accounting Department, Business School</h4>
+            <h4> National University of Singapore</h4> 
+          </div>--> 
+          <!-- Grid column --> 
+          <!-- Grid column -->
+          <div class="col-sm-12 col-md-12 col-lg-12 mb-md-0 mb-3">
+            <h3>Find me on ...</h3>
+            <ul class="social">
+              <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="https://www.facebook.com/binke1" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.linkedin.com/in/ke-bin-1286191a/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+              <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+              <li><a href="#" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>
+            </ul>  
+          </div>
+          <!-- Grid column -->  
+        </div>
+        <!-- Grid row -->  
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© Copyright: KE Bin | Last Updated in Oct 2019</a>
+      </div>    
+      <!-- Copyright -->  
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/bootstrap-switch.min.js"></script>
+    <script>
+              /* slowly move to the second nav when webpage is loaded */
+          $(function() {
+              $([document.documentElement, document.body]).animate({
+                  scrollTop: $("#myTab").offset().top - 70
+              }, 666);
+          },
+          
+          $('#bbe2009' ).click(function() {
+            $("#by2009").css("display", 'block');
+            $("#af2009").css("display", 'none');
+            $("#baf2009").removeClass("btn-success")
+            $("#bbe2009").addClass("btn-success")
+            
+          }),
+
+          $('#baf2009' ).click(function() {
+            $("#by2009").css("display", 'none');
+            $("#af2009").css("display", 'block');
+            $("#bbe2009").removeClass("btn-success")
+            $("#baf2009").addClass("btn-success")
+          })
+          ) 
+          /* slowly move to the second nav when webpage is loaded */
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/echarts.min.js"></script>
+  </body>
+</html>
