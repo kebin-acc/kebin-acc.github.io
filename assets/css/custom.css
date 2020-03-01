@@ -301,7 +301,7 @@ article{
   border-color:rgba(0, 0, 0, 0.15);
  }
 
-  #data .box , #workingpaper .box, #jobopennings .box{
+  #data .box , #workingpaper .box, #jobopenings .box{
     min-height: 600px;
   }
 
